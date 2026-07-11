@@ -1,8 +1,8 @@
 # Security Monitoring & SIEM Fundamentals Module
 
-## *<u>SIEM Definitions and Fundamentals</u>*
+## <u>*SIEM Definitions and Fundamentals*</u>
 
-SIEM stands for Security Information and Event Management and refers to the utilisation of software that merge security data with supervision of security events. These aid with real-time evaluations of security alerts, produced by network hardware and applications. SIEM tools can collect and manage log events as well as provide operational features such as documentation, summaries and incident handling tools. SIEM tools can help IT staff detect attacks when they occur, rapidly increasing the speed of the response.
+SIEM stands for Security Information and Event Management and refers to the utilisation of software that merges security data with supervision of security events. These aid with real-time evaluations of security alerts, produced by network hardware and applications. SIEM tools can collect and manage log events as well as provide operational features such as documentation, summaries and incident handling tools. SIEM tools can help IT staff detect attacks when they occur, rapidly increasing the speed of the response.
 
 First generation SIM technology used conventional log collection systems whereas second gen SEM technology looked at correlating security events between security tools such as antiviruses and firewalls. Since then vendors have combined the capabilities of SIM and SEM technology to devise SIEM. This technology is widely used across industry.
 
@@ -18,7 +18,7 @@ SIEM systems gather data from a variety of sources and then standardise the data
 
 - SIEM systems play an important role in helping organisations meet regulatory requirements. These requirements will change depending on where you are in the world but could include PCI, DSS, HIPAA and GDPR. Some SIEM systems offer automated reporting and auditing capabilities which are vital for compliance.
 
-- The ability to accurately detect attacks before the properly commence massively decreases the cost involved with an investigation or reparation after a large scale security-breach. It also protects the company from reputation harm.
+- The ability to accurately detect attacks before they properly commence massively decreases the cost involved with an investigation or reparation after a large scale security-breach. It also protects the company from reputation harm.
 
 #### *SIEM Use Case Development Lifecycle*
 
@@ -58,9 +58,9 @@ flowchart LR;
 
 Dashboards in SIEM systems server as containers for visualisations, allowing us to organise and display data in a meaningful way.
 
-## *<u>The Elastic Stack</u>*
+## <u>*The Elastic Stack*</u>
 
-The Elastic stack, by Elastic, is an open-source collection of applications - the main 3 being Elasticsearch, Logstash, and Kibana) - that work together to offer users comprehensive search and visualisation capabilities for real-time analysis and exploration of log files. The architecture of the Elastic stack can be enhanced for resource-intensive environments with the addition of Kafka, RabbitMQ, and Redis for buffering and resiliency as well as nginx for security.
+The Elastic stack, by Elastic, is an open-source collection of applications - the main 3 being Elasticsearch, Logstash, and Kibana - that work together to offer users comprehensive search and visualisation capabilities for real-time analysis and exploration of log files. The architecture of the Elastic stack can be enhanced for resource-intensive environments with the addition of Kafka, RabbitMQ, and Redis for buffering and resiliency as well as nginx for security.
 
 ![Beats collect data from sources like Filebeat and Metricbeat, send to Logstash or Messaging Queue (Kafka, Redis), then to Elasticsearch for processing (Master, Ingest, Data nodes), and finally to Kibana for visualization.](https://cdn.services-k8s.prod.aws.htb.systems/content/modules/211/elastic1.png)
 
@@ -113,8 +113,6 @@ The ECS is a shared and extensible vocabulary for events and logs across the Ela
 - Interoperability: Probably the main business reason to use the ECS is better integration with other technologies, allowing for easy expansion.
 
 - Future-proofing: Adopting the ECS means that your system is not going to become incompatible with parts of the Elastic ecosystem after an update or new feature is released.
-
-
 
 ## <u>*SOC Definitions and Fundamentals*</u>
 
@@ -176,9 +174,7 @@ The MITRE ATT&CK Framework exists to provide a structured methodology assisting 
 
 - Training and Education: The framework is a great resource for educating security professionals on adversarial tactics and methods.
 
-
-
-## *<u> Alert Triaging</u>*
+## <u>*Alert Triaging*</u>
 
 Alert triaging, performed by a SOC analyst, is the process of evaluating and prioritising security alerts to determine their level of threat and potential impact on systems/data. It involves reviewing and categorising alerts to allocate resources. Escalation is the process of alerting other teams at the organisation such as the incident response team, who have the authority to make decisions about the response to a threat. The SOC analyst needs to provide detailed information about the alert including its severity and potential impact. Escalation ensures that critical alerts receive the attention that they need and helps coordinate efficient responses.
 
@@ -207,5 +203,3 @@ Alert triaging, performed by a SOC analyst, is the process of evaluating and pri
 - Continuous Monitoring
 
 - De-escalation: Evaluate the need for de-escalation as the response progresses. Proceed with final stages of incident handling procedure.
-
-
