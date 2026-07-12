@@ -4,7 +4,7 @@
 
 The median duration between a security breach and its detection (known as "dwell time") is usually several weeks. This implies a potential adversarial presence within a network for a substantial amount of time which can be significantly impactful. This highlights a weakness of the defence-oriented cyber-security approach often employed and pushes us towards a more proactive, offensive strategy.
 
-Threat hunting i an active practice that combs through network data to identify advanced threats. The active aspect of this solution allows us to uncover threats that might not be picked up by automatic systems. The main objective of threat hunting is to reduce dwell time and recognise attacks at the earliest stages of the cyber kill chain. During the hunting process we will regularly employ threat intelligence to formulate hunting hypotheses and develop counter-tactics.
+Threat hunting is an active practice that combs through network data to identify advanced threats. The active aspect of this solution allows us to uncover threats that might not be picked up by automatic systems. The main objective of threat hunting is to reduce dwell time and recognise attacks at the earliest stages of the cyber kill chain. During the hunting process we will regularly employ threat intelligence to formulate hunting hypotheses and develop counter-tactics.
 
 ### Incident Handling and Threat Hunting
 
@@ -64,8 +64,6 @@ Risk assessment is an essential facet of cybersecurity, enabling a comprehensive
 
 - Enhancing cybersecurity controls.
 
-
-
 ## <u>*The Threat Hunting Process*</u>
 
 ### The Core Process
@@ -107,7 +105,7 @@ If we confirm a threat, we mus undertake remediation activities. These could inv
 
 #### *After the Hunt*
 
-Once the threat hunting cycle concludes it is crucial to document ad share the findings, methods and outcomes. It is also important to learn from each threat hunt to enhance future efforts. For example, after a threat hunting mission, the team might update threat intelligence platform with newly discovered IOCs and share relevant data with other teams or external partners.
+Once the threat hunting cycle concludes it is crucial to document ad share the findings, methods and outcomes. It is also important to learn from each threat hunt to enhance future efforts. For example, after a threat hunting mission, the team might update threat intelligence platforms with newly discovered IOCs and share relevant data with other teams or external partners.
 
 #### *Continuous Learning and Enhancement*
 
@@ -129,8 +127,6 @@ If infections are confirmed then the team will take immediate actions to isolate
 
 Once the threat has been neutralised, the team documents their findings. They update platforms with any new IOCs they found and write new detection rules for their own security tools. Lessons learnt are incorporated into policies and procedures. Threat hunting is an ongoing process and the team will refine their future hypotheses, attend industry conferences/training sessions and collaborate with other teams stay ahead  on the latest Emotet TTPs. 
 
-
-
 ## <u>*The Diamond Model*</u>
 
 The diamond model of intrusion analysis is a conceptual framework designed to illustrate the fundamental aspects of a cyber intrusion.
@@ -141,15 +137,13 @@ The diamond model of intrusion analysis is a conceptual framework designed to il
 
 - Capability refers to the TTPs that the adversary uses to carry out the intrusion.
 
-- Infrastructure refers to the physical and virtual resources that the adversary uses to facilitate thje intrusion.
+- Infrastructure refers to the physical and virtual resources that the adversary uses to facilitate the intrusion.
 
 - Victim represents the target of the intrusion which can be an individual, organisation or system.
 
 The model allows for the complex relationships and construction of threat detection to be captured. In comparison to the cyber kill chain model, we can see that the diamond model focuses more on the components involved in an incident and their relationships rather than the stages of the incident itself. Because of this, the diamond model should be used to complement the cyber kill chain model and an organisation should not solely use one or the other.
 
-
-
-## *<u>Cyber Threat Intelligence</u>*
+## <u>*Cyber Threat Intelligence*</u>
 
 Cyber threat intelligence plays a vital part of our arsenal for defending against cyber attacks. The primary objective of the CTI team is to transition our reactive defence strategies into proactive measures. They contribute insights to our SOC. There are 4 fundamental principles that make CTI an integral part of an organisation's cyber strategy:
 
@@ -299,7 +293,3 @@ The following provides a comprehensive inventory of all identified IOCs to this 
 - 226A723FFB4A91D9950A8B266167C5B354AB0DB1DC225578494917FE5 867EF2
 - C346077DAD0342592DB753FE2AB36D2F9F1C76E55CF8556FE5CDA92897E99C7E
 - 018D37CBD3878258C29DB3BC3F2988B6AE688843801B9ABC28E6151141AB66D4
-
-
-
-
